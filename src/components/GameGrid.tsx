@@ -1,4 +1,4 @@
-import { Rocket, Dice1, Bomb, PlayCircle, Target, Waves, Diamond } from "lucide-react";
+import { Rocket, Dice1, Bomb, PlayCircle, Target,Vollyball,PcCase, Waves, Diamond } from "lucide-react";
 import GameCard from "./GameCard";
 
 const games = [
@@ -7,8 +7,8 @@ const games = [
   { title: "Mines", icon: Bomb, gradient: "bg-gradient-to-br from-purple-500 to-pink-500" },
   { title: "Cards", icon: PlayCircle, gradient: "bg-gradient-to-br from-pink-500 to-rose-400" },
   { title: "Roulette", icon: Target, gradient: "bg-gradient-to-br from-indigo-500 to-purple-500" },
-  // { title: "Tower", icon: ChessRook, gradient: "bg-gradient-to-br from-cyan-500 to-blue-500" },
-  // { title: "Goal", icon: Football, gradient: "bg-gradient-to-br from-violet-600 to-indigo-600" },
+  { title: "Tower", icon: PcCase, gradient: "bg-gradient-to-br from-cyan-500 to-blue-500" },
+  { title: "Goal", icon: Vollyball, gradient: "bg-gradient-to-br from-violet-600 to-indigo-600" },
   { title: "Snake Ladder", icon: Waves, gradient: "bg-gradient-to-br from-green-500 to-emerald-500" },
   { title: "Crystal", icon: Diamond, gradient: "bg-gradient-to-br from-teal-400 to-cyan-500" },
 ];
